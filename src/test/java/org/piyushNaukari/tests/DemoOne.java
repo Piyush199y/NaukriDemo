@@ -12,8 +12,8 @@ public class DemoOne {
     public void login() throws InterruptedException{
 
         EdgeOptions edgeOptions = new EdgeOptions();
-        edgeOptions.addArguments("-guest");
-        edgeOptions.addArguments("-start-maximized");
+        edgeOptions.addArguments("--guest");
+        edgeOptions.addArguments("--start-maximized");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
 
@@ -24,7 +24,6 @@ public class DemoOne {
         driver.findElement(By.name("username")).sendKeys("Admin");
 
         driver.findElement(By.name("password")).sendKeys("admin123");
-
 
         driver.findElement(By.xpath("//button[@data-v-10d463b7=\"\"]")).click();
 
