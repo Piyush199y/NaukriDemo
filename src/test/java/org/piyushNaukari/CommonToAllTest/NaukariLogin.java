@@ -1,4 +1,4 @@
-package org.piyushNaukari.tests;
+package org.piyushNaukari.CommonToAllTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
